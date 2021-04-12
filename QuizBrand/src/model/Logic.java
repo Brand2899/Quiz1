@@ -72,11 +72,11 @@ public class Logic extends PApplet {
 			switch (randomFig) {
 			
 			case 0: 
-			figure.add(new Circle(tam, posX, posY, direction, r, 0, 0, value, app));
+			figure.add(new Circle(tam, posX, posY, direction, r, g, b, value, app));
 				break;
 				
 			case 1:
-			figure.add(new Square(tam, posX, posY, direction, 0, 0, b,value, app));
+			figure.add(new Square(tam, posX, posY, direction, r, g, b,value, app));
 				break;
 			}
 		}
