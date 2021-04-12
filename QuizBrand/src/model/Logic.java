@@ -15,6 +15,7 @@ public class Logic extends PApplet {
 	ArrayList<Figure> figure;
 
 	public Logic(PApplet app) {
+		
 		this.app = app;
 		figure = new ArrayList<Figure>();
 		
